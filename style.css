@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(167, 153, 153);
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.allcon{
+ display: flex; 
+   flex-direction: column;  
+    justify-content: center; 
+    align-items: center ; 
+    height: 60vh;
+}
+.mainsection{
+    height: 40vh;
+    border: 6px solid black;
+    width: 400px;
+}
+label{
+  font-weight: 700;
+  font-size: 18px;
+}
+input{
+    font-size: 15px;
+}
+#inp1{
+    margin-left: 24px;
+    padding: 5px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#inp2{
+    margin-left: 29px;
+    padding: 5px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#inp3{
+    padding: 5px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.inpall{
+      display: flex; 
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center ;
+     margin-top: 44px;
+    }
+.butall{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center ;
+    margin-top: 30px;
+}
+#sign , #gotologin ,#reset{
+padding: 8px 30px;
+border-radius: 8px;
+transition-property: all;
+transition-timing-function: ease-in-out;
+transition-duration: 0.3s;
+transition-delay: 0.1s;
+font-weight: 700;
+}
+#sign:hover , #gotologin:hover ,#reset:hover{
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mainall{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center ;
+    height: 60vh;
+}
+.login{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center ;
+    margin-top: 44px;
+}
+#loginup{
+    margin-left: 29px;
+    padding: 5px 12px;
+    border-radius:7px ;
+    border: 2px solid black;
+}
+#loginpassword{
+    padding: 5px 12px;
+    border-radius:7px ;
+    border: 2px solid black;
+}
+.login button{
+    padding: 8px 30px;
+    border-radius: 8px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    font-weight: 700;
+}
+.login:hover button{
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainlogin{
+    height: 30vh;
+    border: 6px solid black;
+    width: 400px;
+}

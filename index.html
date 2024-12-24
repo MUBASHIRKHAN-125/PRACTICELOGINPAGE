@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><span id="element"></span></h1>
+     <div class="allcon">
+    <div class="mainsection">
+        <div class="inpall">
+            <label for="inp1">
+                Name:<input type="text"  id="inp1">
+            </label>
+            <br>
+            <label for="inp2">
+                Email:<input type="email"  id="inp2">
+            </label>
+            <br>
+            <label for="inp3">
+                Password:<input type="password"  id="inp3">
+            </label>
+        </div>
+        <div class="butall">
+            <button onclick="signup()" id="sign">Sign-up</button>
+            <br>
+            <button id="gotologin"> <a href="login.html">Go to Login Page</a></button>
+            <br>
+            <button onclick="reset()"  id="reset">Reset</button>
+        </div>
+    </div>
+</div>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
