@@ -38,3 +38,8 @@ const typed = new Typed('#element', {
     document.getElementById("inp2").value = "";
     document.getElementById("inp3").value = "";
   }
+
+  function reset1(){
+document.getElementById("loginup").value = "";
+document.getElementById("loginpassword").value = "";
+  }

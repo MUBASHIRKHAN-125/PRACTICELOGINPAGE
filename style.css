@@ -92,10 +92,18 @@ a{
     align-items: center ;
     margin-top: 44px;
 }
+.mainbut{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center ;
+    margin-top: 22px;
+    row-gap: 8px;
+}
 #loginup{
-    margin-left: 29px;
+    margin-left: 29px; 
     padding: 5px 12px;
-    border-radius:7px ;
+ border-radius:7px ; 
     border: 2px solid black;
 }
 #loginpassword{
@@ -103,7 +111,7 @@ a{
     border-radius:7px ;
     border: 2px solid black;
 }
-.login button{
+#login button{
     padding: 8px 30px;
     border-radius: 8px;
     transition-property: all;
@@ -112,7 +120,7 @@ a{
     transition-delay: 0.1s;
     font-weight: 700;
 }
-.login:hover button{
+#login:hover button{
     box-shadow: 1px 1px 10px white;
     cursor: pointer;
     transform: scale(1.1);
