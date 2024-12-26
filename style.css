@@ -9,18 +9,18 @@ body{
 h1{
     text-align: center;
     margin-top: 30px;
+    font-size: 1.7rem;
 }
 .allcon{
- display: flex; 
+    display: flex; 
    flex-direction: column;  
     justify-content: center; 
     align-items: center ; 
-    height: 60vh;
 }
 .mainsection{
-    height: 40vh;
     border: 6px solid black;
     width: 400px;
+   margin-top: 40px;
 }
 label{
   font-weight: 700;
@@ -59,8 +59,9 @@ input{
     justify-content: center;
     align-items: center ;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
-#sign , #gotologin ,#reset{
+#sign  , #reset{
 padding: 8px 30px;
 border-radius: 8px;
 transition-property: all;
@@ -69,7 +70,7 @@ transition-duration: 0.3s;
 transition-delay: 0.1s;
 font-weight: 700;
 }
-#sign:hover , #gotologin:hover ,#reset:hover{
+#sign:hover , #reset:hover{
     box-shadow: 1px 1px 10px white;
     cursor: pointer;
     transform: scale(1.1);
@@ -83,7 +84,7 @@ a{
     flex-direction: column; 
     justify-content: center;
     align-items: center ;
-    height: 60vh;
+    margin-top: 40px;
 }
 .login{
     display: flex;
@@ -99,6 +100,7 @@ a{
     align-items: center ;
     margin-top: 22px;
     row-gap: 8px;
+    margin-bottom: 10px;
 }
 #loginup{
     margin-left: 29px; 
@@ -126,7 +128,32 @@ a{
     transform: scale(1.1);
 }
 .mainlogin{
-    height: 30vh;
     border: 6px solid black;
     width: 400px;
+}
+@media (max-width:390px) {
+    .mainlogin {
+        border: 8px solid black;
+        width: 350px;
+    }
+    h1 {
+        font-size: 1.7rem;
+        color: white;
+        font-family: Ebrima;
+    }
+    .allcon {
+        margin-top: 30px;
+    }
+    #inp1 ,#inp2 {
+       margin-left: 0px; 
+    }
+    #inp3{
+        padding: 5px 0px;
+    }
+    .mainsection{
+        width: 300px;
+    }
+    body{
+        background-color: rgb(139 187 213);
+    }
 }
